@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CancelDialog</class>
+ <widget class="QDialog" name="CancelDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cancel Booking</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="text">
+      <string>Cancel Flight Booking</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="bookingIdLabel">
+     <property name="text">
+      <string>Enter Booking ID:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="bookingIdEdit">
+     <property name="placeholderText">
+      <string>Enter your booking ID</string>
+     </property>
+     <property name="maxLength">
+      <number>6</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="cnicLabel">
+     <property name="text">
+      <string>Enter CNIC Number:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="cnicEdit">
+     <property name="placeholderText">
+      <string>13-digit CNIC without dashes</string>
+     </property>
+     <property name="maxLength">
+      <number>13</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="cancelButton">
+     <property name="text">
+      <string>Cancel Booking</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #ff6347; color: white;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
